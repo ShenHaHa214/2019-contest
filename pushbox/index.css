@@ -1,0 +1,64 @@
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+td {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+}
+.wall {
+    background: url(img/wall.png);
+    background-size: 40px 40px;
+}
+
+.ground {
+    background: url(img/ground.png);
+    background-size: 40px 40px;
+}
+
+.man {
+    background: url(img/man.png);
+    background-size: 40px 40px;
+}
+
+.real {
+    background: url(img/real.png);
+    background-size: 40px 40px;
+}
+
+.target {
+    background: url(img/target.png);
+    background-size: 40px 40px;
+}
+
+.arrive {
+    background: url(img/arrive.png);
+    background-size: 40px 40px;
+}
+.prompt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.prompt select {
+    margin: 0 10px;
+}
+.prompt button {
+    border-radius: 5px;
+    background: #f8f8f8;
+    border:1px solid #ccc
+}
+.prompt button:focus {
+    outline: none;
+}
+.prompt button:active {
+    background: #f0f0f0;
+}
+.level {
+
+    padding: 10px;
+    height: 20px;
+
+}
